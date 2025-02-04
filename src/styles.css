@@ -6,7 +6,7 @@
     text-align: center;
     overflow: hidden;
     background-color: #fff0f5;
-    font-family: Arial, sans-serif;
+    font-family: 'Milton, sans-serif';
   }
   
   /* Centered heading styling */
@@ -105,4 +105,9 @@
   /* "auto" uses the default scrollbar thickness which is usually thicker than "thin" */
   scrollbar-width: auto; 
   scrollbar-color: #ff99cc #ffe6e6; /* thumb color then track color */
+}
+
+@font-face {
+  font-family: 'CustomFont'; /* Name your font family */
+  src: url('/public/Spectral-BoldItalic.ttf'); /* Locate the .ttf file within your directory*/
 }

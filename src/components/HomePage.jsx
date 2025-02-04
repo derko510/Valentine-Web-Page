@@ -13,7 +13,7 @@ function HomePage() {
   useEffect(() => {
     const updateCountdown = () => {
       // (If you prefer a future date, adjust the targetDate accordingly.)
-      const targetDate = new Date("November 21, 2021 00:00:00").getTime();
+      const targetDate = new Date("November 11, 2021 00:00:00").getTime();
       const now = new Date().getTime();
       const diff = targetDate - now;
 
@@ -33,7 +33,7 @@ function HomePage() {
   const styles = {
     body: {
       backgroundColor: '#ffe6e6',
-      fontFamily: 'Arial, sans-serif',
+      fontFamily: 'CustomFont, sans-serif',
       textAlign: 'center',
       padding: '20px',
       minHeight: '100vh',
@@ -101,6 +101,7 @@ function HomePage() {
       borderRadius: '5px',
       backgroundColor: '#ff99cc',
       color: '#fff',
+      fontFamily: 'CustomFont, sans-serif',
     },
   };
 

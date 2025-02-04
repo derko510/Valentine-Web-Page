@@ -44,8 +44,8 @@ const Valentine = () => {
       width: '100%',
       textAlign: 'center',
       overflow: 'hidden',
-      fontFamily: 'Arial, sans-serif',
       backgroundColor: '#fff0f5',
+      fontFamily: 'CustomFont, sans-serif',
     },
     gif: {
       width: '300px', // Adjust size as needed
@@ -61,6 +61,7 @@ const Valentine = () => {
       position: 'relative',
       height: '200px',
       marginTop: '20px',
+      fontFamily: 'CustomFont, sans-serif',
     },
     button: {
       padding: '10px 20px',
@@ -70,12 +71,14 @@ const Valentine = () => {
       borderRadius: '5px',
       backgroundColor: '#ff99cc',
       color: '#fff',
+      fontFamily: 'CustomFont, sans-serif',
     },
     yesButton: {
       position: 'absolute',
       left: '40%', // Yes button at 40% of the container's width
       top: '50%',
       transform: 'translate(-50%, -50%)',
+      fontFamily: 'CustomFont, sans-serif',
     },
     noButton: {
       // The initial style for the No button will be merged with dynamic noButtonStyle.
@@ -83,6 +86,7 @@ const Valentine = () => {
       left: '60%', // No button at 60% of the container's width
       top: '50%',
       transform: 'translate(-50%, -50%)',
+      fontFamily: 'CustomFont, sans-serif',
     },
     modalBackdrop: {
       position: 'fixed',
@@ -100,6 +104,7 @@ const Valentine = () => {
       padding: '30px',
       borderRadius: '8px',
       textAlign: 'center',
+      fontFamily: 'CustomFont, sans-serif',
     },
     modalButton: {
       marginTop: '20px',
@@ -110,6 +115,7 @@ const Valentine = () => {
       borderRadius: '5px',
       backgroundColor: '#ff99cc',
       color: '#fff',
+      fontFamily: 'CustomFont, sans-serif',
     },
   };
 
