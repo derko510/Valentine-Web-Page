@@ -9,13 +9,12 @@ function Letter() {
       <div style={styles.container}>
         <h1 style={styles.heading}>My Dear Kimmy,</h1>
         <p style={styles.paragraph}>
-          This is a sample letter text. I just want you to know that every 
-          moment we spend together feels magical. I cherish our memories 
-          and look forward to making many more.
+`        I hope this letter finds you in good health and high spirits. I wanted to take a moment to express my feelings for you.
+          
         </p>
         <p style={styles.paragraph}>
           Love always,<br />
-          [Your Name]
+          DERKO
         </p>
         {/* Wrapping the button inside a div for centering */}
         <div style={styles.buttonContainer}>
@@ -31,7 +30,7 @@ function Letter() {
 const styles = {
   body: {
     backgroundColor: '#ffe6e6',
-    fontFamily: 'Arial, sans-serif',
+    fontFamily: 'CustomFont, sans-serif',
     padding: '20px',
     textAlign: 'center',
     minHeight: '100vh',
@@ -71,6 +70,7 @@ const styles = {
     borderRadius: '5px',
     backgroundColor: '#ff99cc',
     color: '#fff',
+    fontFamily: 'CustomFont, sans-serif',
   },
 };
 
