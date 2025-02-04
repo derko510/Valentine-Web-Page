@@ -1,0 +1,86 @@
+/* Global container for the Valentine page */
+.valentine-container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    background-color: #fff0f5;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Centered heading styling */
+  .valentine-heading {
+    margin-top: 40vh;
+    font-size: 2.5em;
+    color: #e60073;
+    text-align: center;
+  }
+  
+  /* Container for the buttons */
+  .valentine-button-container {
+    position: relative;
+    height: 200px; /* Defines the area for the buttons */
+    margin-top: 20px;
+  }
+  
+  /* Base styling for both buttons */
+  .yes-button,
+  .no-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff99cc;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+  }
+  
+  /* Positioning for the Yes button */
+  .yes-button {
+    left: 40%; /* Adjust as needed */
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Initial positioning for the No button */
+  .no-button {
+    left: 50%; /* This will be overridden by inline styles for dynamic repositioning */
+    top: 60%;  /* This will be overridden by inline styles for dynamic repositioning */
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Modal backdrop styling */
+  .modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent backdrop */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Modal content styling */
+  .modal-content {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  /* Modal close button styling */
+  .modal-close {
+    margin-top: 20px;
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff99cc;
+    color: #fff;
+    cursor: pointer;
+  }
+  
