@@ -140,7 +140,7 @@ const Valentine = () => {
       {modalOpen && (
         <div style={styles.modalBackdrop}>
           <div style={styles.modalContent}>
-            <h2>Yay! You made my day!</h2>
+            <h2>Look Behind you</h2>
             <button onClick={closeModal} style={styles.modalButton}>
               Close
             </button>

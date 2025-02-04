@@ -12,16 +12,15 @@ function HomePage() {
 
   useEffect(() => {
     const updateCountdown = () => {
-      // Target date is November 21, 2022.
       // (If you prefer a future date, adjust the targetDate accordingly.)
-      const targetDate = new Date("November 21, 2022 00:00:00").getTime();
+      const targetDate = new Date("November 21, 2021 00:00:00").getTime();
       const now = new Date().getTime();
       const diff = targetDate - now;
 
-      const days = Math.floor(diff / (1000 * 60 * 60 * 24));
-      const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
-      const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+      const days = Math.abs(Math.floor(diff / (1000 * 60 * 60 * 24)));
+      const hours = Math.abs(Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)));
+      const minutes = Math.abs(Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60)));
+      const seconds = Math.abs(Math.floor((diff % (1000 * 60)) / 1000));
 
       setTime({ days, hours, minutes, seconds });
     };
