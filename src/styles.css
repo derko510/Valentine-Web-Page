@@ -84,3 +84,25 @@
     cursor: pointer;
   }
   
+
+/* For WebKit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 25px; /* Increase the width for a thicker scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #ffe6e6; /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ff99cc; /* Thumb color */
+  border-radius: 6px;
+  border: 3px solid #ffe6e6; /* This creates padding around the thumb */
+}
+
+/* For Firefox */
+* {
+  /* "auto" uses the default scrollbar thickness which is usually thicker than "thin" */
+  scrollbar-width: auto; 
+  scrollbar-color: #ff99cc #ffe6e6; /* thumb color then track color */
+}

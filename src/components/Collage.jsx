@@ -1,21 +1,35 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-
 function Collage() {
   const navigate = useNavigate();
 
-  // Array of 9 image URLs (replace these with your actual images if desired)
+  // Array of 24 different image URLs (replace these with your actual image URLs)
   const images = [
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJApGdvWpLsVgsgeFdXuLZTu6JdE9n6VRwdg&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJApGdvWpLsVgsgeFdXuLZTu6JdE9n6VRwdg&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJApGdvWpLsVgsgeFdXuLZTu6JdE9n6VRwdg&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJApGdvWpLsVgsgeFdXuLZTu6JdE9n6VRwdg&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJApGdvWpLsVgsgeFdXuLZTu6JdE9n6VRwdg&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJApGdvWpLsVgsgeFdXuLZTu6JdE9n6VRwdg&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJApGdvWpLsVgsgeFdXuLZTu6JdE9n6VRwdg&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJApGdvWpLsVgsgeFdXuLZTu6JdE9n6VRwdg&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJApGdvWpLsVgsgeFdXuLZTu6JdE9n6VRwdg&s",
-  ];
+    "/assets/1.gif",
+    "/assets/1.jpg",
+    "/assets/2.gif",
+    "/assets/2.jpg",
+    "/assets/3.gif",
+    "/assets/3.jpg",
+    "/assets/4.gif",
+    "/assets/4.jpg",
+    "/assets/5.gif",
+    "/assets/5.jpg",
+    "/assets/6.gif",
+    "/assets/6.jpg",
+    "/assets/7.gif",
+    "/assets/7.jpg",
+    "/assets/8.gif",
+    "/assets/8.jpg",
+    "/assets/9.gif",
+    "/assets/9.jpg",
+    "/assets/10.jpg",
+    "/assets/11.gif",
+    "/assets/11.jpg",
+    "/assets/12.gif",
+    "/assets/13.jpg",
+    "/assets/14.jpg",
+  ];  
 
   const styles = {
     body: {
@@ -23,7 +37,6 @@ function Collage() {
       fontFamily: 'Arial, sans-serif',
       padding: '20px',
       textAlign: 'center',
-      color: '#0000000',
     },
     collage: {
       display: 'grid',

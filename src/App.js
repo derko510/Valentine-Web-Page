@@ -1,7 +1,7 @@
 // App.js
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import './components/styles.css';
+import './styles.css';
 import HomePage from './components/HomePage';
 import Letter from './components/Letter';
 import Collage from './components/Collage';
